@@ -1,0 +1,48 @@
+canvas {
+    background-color: #ffffff; /* Цвет основной области холста */
+}
+body {
+    background-color: #ff0000; /* Цвет области, выходящей за пределы холста */
+    margin: 0; /* Убираем отступы у body, чтобы холст занимал всю доступную область */
+    overflow: hidden;
+}
+
+.controls {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top:25px;
+    right:25px;
+}
+
+.controls button {
+    padding: 15px;
+    border-radius: 100%;
+    border: 0;
+    background-color: whitesmoke;
+    box-shadow: yellow;
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    color: black;
+    font-size: 24px;
+    line-height: 10px;
+}
+
+.pallete button {
+    padding: 15px;
+    border-radius: 25%;
+    border: 0;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 24px;
+    line-height: 10px;
+    width: 75px;
+    height: 50px;
+}
+
+.data {
+    position: absolute;
+    top:235px;
+    right: 25px;
+}
